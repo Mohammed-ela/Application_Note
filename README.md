@@ -24,6 +24,6 @@ Notes App est une application de gestion de notes inspirée d'Apple Notes. Cette
 
 1. Clonez le dépôt :
    ```sh
-   git clone https://github.com/<votre-nom-utilisateur>/notes-app.git
+   git clone https://github.com/Mohammed-ela/notes-app.git
    cd notes-app
    ```
