@@ -1,20 +1,21 @@
+// Importation des fonctions nécessaires de vue-router
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+// Importation des composants de page
+import Home from '../views/HomePage.vue'
+import Note from '../views/NotePage.vue'
+
+// Définition des routes de l'application
+const routes = [
+  {
+    path: '/', // home page
+    name: 'HomePage',
+    component: Home
+  }
+]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: HomeView
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
-    }
-  ]
+  history: createWebHistory(),
+  routes
 })
 
 export default router
