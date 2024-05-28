@@ -95,6 +95,7 @@ textarea {
   box-sizing: border-box;
   text-align: left;
   direction: ltr;
+  border: none;
 }
 .app-container {
   display: flex;
@@ -145,6 +146,7 @@ textarea.editable-textarea {
   margin-top: 10px;
   text-align: left;
   direction: ltr;
+  border: none;
 }
 
 .selected-note {
@@ -177,3 +179,4 @@ textarea.editable-textarea {
 .delete-note-button:hover {
   background-color: darkred;
 }
+
